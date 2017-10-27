@@ -365,7 +365,7 @@ Name: "{userdesktop}\GUI Wallet"; Filename: "{app}\monero-wallet-gui.exe"; Tasks
 ; Store any special flags for the daemon in the registry location where the GUI wallet will take it from
 ; So if the wallet is used to start the daemon instead of the separate icon the wallet will pass the correct flags
 ; Side effect, mostly positive: The uninstaller will clean the registry
-Root: HKCU; Subkey: "Software\monero-project"; Flags: uninsdeletekeyifempty
-Root: HKCU; Subkey: "Software\monero-project\monero-core"; Flags: uninsdeletekey
-Root: HKCU; Subkey: "Software\monero-project\monero-core"; ValueType: string; ValueName: "daemonFlags"; ValueData: {code:DaemonFlags};
+Root: HKCU; Subkey: "Software\mraksoll4"; Flags: uninsdeletekeyifempty
+Root: HKCU; Subkey: "Software\mraksoll4\monero-core"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\mraksoll4\monero-core"; ValueType: string; ValueName: "daemonFlags"; ValueData: {code:DaemonFlags};
 

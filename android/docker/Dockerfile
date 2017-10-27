@@ -89,7 +89,7 @@ APP_CFLAGS +=  -target armv7-none-linux-androideabi -fexceptions -fstack-protect
     && CC=arm-linux-androideabi-clang CXX=arm-linux-androideabi-clang++ ant -Dndk.dir=${ANDROID_NDK_ROOT} -Diconv.src=${WORKDIR}/libiconv-${ICONV_VERSION} zbar-clean zbar-ndk-build
 
 #Can't directly call build.sh because of env variables
-RUN git clone https://github.com/monero-project/monero-core.git \
+RUN git clone https://github.com/mraksoll4/monero-core.git \
     && cd monero-core \
     && git submodule update \
     && CC=arm-linux-androideabi-clang CXX=arm-linux-androideabi-clang++ BOOST_ROOT=/opt/android/boost_1_62_0 BOOST_LIBRARYDIR=${WORKDIR}/boost_${BOOST_VERSION}/android32/lib/  OPENSSL_ROOT_DIR=${WORKDIR}/openssl/ ./get_libwallet_api.sh release-android

@@ -7,12 +7,12 @@ Copyright (c) 2014-2017, The Monero Project
 - Web: [getmonero.org](https://getmonero.org)
 - Forum: [forum.getmonero.org](https://forum.getmonero.org)
 - Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
-- Github: [https://github.com/monero-project/monero-core](https://github.com/monero-project/monero-core)
+- Github: [https://github.com/mraksoll4/monero-core](https://github.com/mraksoll4/monero-core)
 - IRC: [#monero-dev on Freenode](irc://chat.freenode.net/#monero-dev)
 
 ## Vulnerability Response
 
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- Our [Vulnerability Response Process](https://github.com/mraksoll4/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
 - We are also available via [HackerOne](https://hackerone.com/monero)
 
 ## Introduction
@@ -27,7 +27,7 @@ Monero is a private, secure, untraceable, decentralised digital currency. You ar
 
 ## About this Project
 
-This is the GUI for the [core Monero implementation](https://github.com/monero-project/monero). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
+This is the GUI for the [core Monero implementation](https://github.com/mraksoll4/monero). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
@@ -84,7 +84,7 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 2. Grab an up-to-date copy of the monero-core repository
 
-	`git clone https://github.com/monero-project/monero-core.git`
+	`git clone https://github.com/mraksoll4/monero-core.git`
 
 3. Go into the repository
 
@@ -136,7 +136,7 @@ The executable can be found in the build/release/bin folder.
 
 1. Install Xcode from AppStore
 2. Install [homebrew](http://brew.sh/)
-3. Install [monero](https://github.com/monero-project/monero) dependencies:
+3. Install [monero](https://github.com/mraksoll4/monero) dependencies:
 
   `brew install boost --c++11`
 
@@ -160,7 +160,7 @@ The executable can be found in the build/release/bin folder.
 
 6. Grab an up-to-date copy of the monero-core repository
 
-  `git clone https://github.com/monero-project/monero-core.git`
+  `git clone https://github.com/mraksoll4/monero-core.git`
 
 7. Go into the repository
 
@@ -189,7 +189,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 
 1. Install [msys2](http://msys2.github.io/), follow the instructions on that page on how to update packages to the latest versions
 
-2. Install monero dependencies as described in [monero documentation](https://github.com/monero-project/monero) into msys2 environment
+2. Install monero dependencies as described in [monero documentation](https://github.com/mraksoll4/monero) into msys2 environment
    **As we only build application for x86, install only dependencies for x86 architecture (i686 in package name)**
    ```
    pacman -S mingw-w64-i686-toolchain make mingw-w64-i686-cmake mingw-w64-i686-boost
@@ -228,7 +228,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 7. Clone repository
     ```
     cd
-    git clone https://github.com/monero-project/monero-core.git
+    git clone https://github.com/mraksoll4/monero-core.git
     ```
 
 8. Build the GUI
